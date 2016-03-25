@@ -78,7 +78,7 @@ h1 {
   font-weight: 400;
   font-size: 50px;
   margin: 0px;
-  color: #15352B;
+  color: silver;
 }
 
 h2 {
@@ -98,13 +98,13 @@ h2 {
 .nav li {
   display: block;
   list-style: none;
-  background: #15352B;
+  background: black;
 }
 
 .nav li a {
-  color: black;
+  color: silver;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.5em;
 }
 
@@ -197,6 +197,3 @@ i {
 i:hover {
   color: #1A4C4A;
 }
-
-
-
