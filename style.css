@@ -140,6 +140,7 @@ h2 {
 
 .skill-list li {
   list-style: none;
+  padding-right: 0px;
 }
 
 <!--clearfix-->
