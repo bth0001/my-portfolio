@@ -62,7 +62,7 @@ body {
 }
 
 #skills ul {
-  text-align: left;
+  text-align: center;
 }
 
 #intro h1 {
@@ -185,7 +185,7 @@ ul {
 }
 
 p {
-  text-align: justify
+  text-align: center;
 }
 
 .glyphicon-star {
