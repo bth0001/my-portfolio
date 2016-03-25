@@ -26,10 +26,8 @@ body {
 }
 
 #intro img {
-  height: auto;
-  width: auto;
-  max-height: 230px;
-  max-width: 178px;
+  width:100%;
+  height:auto;
 }
 
 #about-me, #portfolio {
