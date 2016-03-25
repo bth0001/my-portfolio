@@ -94,9 +94,10 @@ h2 {
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    width: 400px;
-    height: 250px;
+    width: auto;
+    height: auto;
     background-color: black;
+    float: right;
 }
 
 .flex-item {
