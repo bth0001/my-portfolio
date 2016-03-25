@@ -1,9 +1,202 @@
+html, body, .container {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-    background: no-repeat center center fixed;
-    background-image: url(http://pre13.deviantart.net/018c/th/pre/f/2014/041/3/0/atlanta_skyline_by_hcitron-d724wwf.jpg);
-    background-size: cover;
-    margin-bottom: 0px;
-    padding: 0px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
+  background: no-repeat center center fixed;
+  background-image: url(http://pre13.deviantart.net/018c/th/pre/f/2014/041/3/0/atlanta_skyline_by_hcitron-d724wwf.jpg);
+  background-size: cover;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+#intro {
+  background-color: #C2FFCD;
+  background: no-repeat center center;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  line-height: 100%;
+  position: relative;
+}
+
+#about-me, #portfolio {
+  background-color: #48B593;
+  position: relative;
+  clear: both;
+  padding: 0 17%;
+  padding-bottom: 20px;
+}
+
+#portfolio img {
+  border-radius: 10px;
+}
+
+#contact {
+  min-height: 40em;
+}
+
+#contact img {
+  margin: 0 10px;
+}
+
+#skills, #contact {
+  background-color: #87C1AF;
+  position: relative;
+  clear: both;
+  padding: 0 17%;
+  padding-bottom: 20px;
+}
+
+#skills ul {
+  text-align: left;
+}
+
+#intro h1 {
+  padding-top: 200px;
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 50%;
+}
+
+h1 {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 50px;
+  margin: 0px;
+  color: #15352B;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 25px;
+  /*margin: 0px;*/
+}
+
+.navbar {
+  float: left;
+  padding: 0;
+  position: relative;
+  border: none;
+  z-index: 1;
+}
+
+.nav li {
+  display: block;
+  list-style: none;
+  background: #15352B;
+}
+
+.nav li a {
+  color: #48B593;
+  text-decoration: none;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.nav li:hover {
+  color: #48B593;
+}
+
+.nav li .active {
+  background: #48B593;
+}
+
+.nav li a .active {
+  color: #15352B;
+}
+
+.nav li:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.nav li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.skill-list li {
+  list-style: none;
+}
+
+<!--clearfix-->
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.side-nav {
+  float: right;
+  position: relative;
+  margin-right: 2em;
+}
+
+.stick {
+  position: fixed;
+  top:0;
+  right: 2em;
+  margin-top: 100px;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
+ul {
+  margin: 0px;
+}
+
+.profile-img {
+  border: 5px solid #87C1AF;
+  border-radius: 150px;
+  height: 250px;
+  width: 250px;
+}
+
+.project-img {
+  height: 350px;
+  width: 350px;
+  margin-bottom: 20px;
+  border: 1px solid #15352B;
+}
+
+p {
+  text-align: justify
+}
+
+.glyphicon-star {
+  color: #949494;
+}
+
+.filled {
+  color: #1B4C5B;
+}
+
+i {
+  height: 100px;
+  width: 100px;
+  color: #15352B;
+}
+
+i:hover {
+  color: #1A4C4A;
+}
+
+
 
