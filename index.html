@@ -1,15 +1,143 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Hello, world!</title>
+  <title>Brad Hughes</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-  <h1>Beer Friday!</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  //intro
+  <div id="intro" class="col-md-12">
+    <h1>Brad Hughes</h1>
+    <h2>General Assembly Web Development Immersive student</h2>
+  </div>
+
+  //About Me
+  <div class="row">
+  <div class="content col-md-12">
+
+  //begin side nav
+  <div class="row">
+    <div id="side-nav" class="navbar col-md-1.5 stick">
+        <ul class="nav nav-pills nav-stacked" role="navigation">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    //side nav end
+
+  </div>
+
+  <div id="about-me" class="col-md-12">
+    <h1>about-me</h1>
+    <hr>
+    <div class="col-md-1"></div>
+    <div class="col-md-5">
+      <h2>About Me</h2>
+      <p>A creative and collaborative developer who is always striving for the betterment of any project or work I engage in.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="about-me-img" src="http://imgur.com/J7n1UR5">
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  //end about me div
+
+  //Skills div
+  <div id="skills" class="col-md-12">
+    <h1>Skills</h1>
+    <hr>
+    <h2 class="col-md-12">Languages</h2>
+        <div class="col-md-12">
+          <ul class="skill-list">
+            <li><span class="title col-md-3">JavaScript</span></li>
+            <li><span class="title col-md-3">HTML5</span></li>
+            <li><span class="title col-md-3">CSS3</span></li>
+          </ul>
+        </div>
+    <h2 class="col-md-12">Tools Most Frequently Used</h2>
+      <div class="col-md-12">
+        <ul class="skill-list">
+          <li><span class="title col-md-3">Sublime Text 3</span></li>
+          <li><span class="title col-md-3">Mac OSX Terminal/Command Line</span></li>
+          <li><span class="title col-md-3">Chrome Dev Tools</span></li>
+          <li><span class="title col-md-3">Git/Github</span></li>
+        </ul>
+      </div>
+  </div>
+  //end of skills div
+
+  <div id="portfolio" class="col-md-12">
+    <h1>Portfolio</h1>
+    <hr>
+    <div class="row">
+      <div class="portfolio col-md-6">
+        <img class="portfolio-img" src="images/Postradamus.png">
+      </div>
+      <div class="portfolio description col-md-6">
+        <h2>Postradamus</h2>
+        <p>Postradamus is an app where users can make predictions about the future. Users can see others' predictions and agree or disagree with those predictions.</p>
+        <p>This app was built with a Ruby on Rails back-end acting as an API to serve JSON data to an Angular front-end. Other technologies used for this portfolio include Devise, Omniauth, Bower, and Bootstrap.</p>
+        <p><a href="https://github.com/ecgeiser/Postradamus">Github</a></p>
+      </div>
+      </div>
+      <div class="row">
+      <div class="portfolio col-md-6">
+        <img class="portfolio-img" src="images/Tweetagotchi.png">
+      </div>
+      <div class="portfolio description col-md-6">
+        <h2>Tweetagotchi</h2>
+        <p>Tweetagotchi is a virtual pet that you take care of by tweeting. I built it about six weeks into the General Assembly Web Development Immersive course as my first portfolio. Once a day, the app checks the timestamp of your most recent tweet and if the timestamp is within twenty-four hours, your pet will be fed - otherwise it will grow hungry.</p>
+        <p>The technologies used for this portfolio include Ruby on Rails, the Twitter API, and Devise.</p>
+        <p><a href="https://github.com/ecgeiser/tweetagotchi">Github</a></p>
+      </div>
+      </div>
+      <div class="row">
+      <div class="portfolio col-md-6">
+        <img class="portfolio-img" src="images/CrowdSurfer.png">
+      </div>
+      <div class="portfolio description col-md-6">
+        <h2>CrowdSurfer</h2>
+        <p>CrowdSurfer is an app that helps up-and-coming DJ's plan tours by returning danceclub venues in cities where their sound is popular.  It was built over a 24-hour period during General Assembly's first hackathon. My main contributions to this portfolio were getting data from the Yelp API and updaing the DOM with JavaScript.</p>
+        <p>The technologies used for this portfolio include Ruby on Rails, the Yelp API, JavaScript, and Bootstrap.</p>
+        <p><a href="https://github.com/chadxsmith/Crowdsurfer_01">Github</a></p>
+      </div>
+      </div>
+      <div class="row">
+      <div class="portfolio col-md-6">
+        <img class="portfolio-img" src="images/EgoAmigo.png">
+      </div>
+      <div class="portfolio description col-md-6">
+        <h2>EgoAmigo</h2>
+        <p>EgoAmigo is an app that allows users to send a random (code-related) compliment to another person via the Twillio API. The Twillio API allows developers to send messages to one designated number for free, and upgrade to a paid plan for additional numbers. So for now this app only works for sending me compliments. My favorite compliment: "Your code is so DRY it makes me thirsty."</p>
+        <p>The technologies used for this portfolio include Ruby on Rails, the Twillio API, and Heroku.</p>
+        <p><a href="https://github.com/ecgeiser/EgoAmigo">Github</a></p>
+        <p><a href="https://warm-meadow-9957.herokuapp.com/">Heroku App</a></p>
+      </div>
+
+    </div>
+  </div>
+  //end portfolio div
+
+  <div id="contact" class="col-md-12">
+    <div class="row">
+    <h1 class="col-md 12">Contact</h1>
+    <hr>
+      <div class="col-md-12">
+          <a target="_blank" href="https://twitter.com/bradleythughes"><i class="fa fa-twitter-square fa-5x"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/pub/erica-geiser/37/351/1b3"><i class="fa fa-linkedin-square fa-5x"></i></a>
+          <a target="_blank" href="https://github.com/bth0001"><i class="fa fa-github-square fa-5x"></i></a>
+          <a href="mailto:bradleythughes@gmail.com"><i class="fa fa-envelope-square fa-5x"></i></a>
+      </div>
+    </div>
+  </div>
+  //end contact div
+
+  </div>
 </body>
 </html>
