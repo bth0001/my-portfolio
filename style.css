@@ -26,7 +26,7 @@ body {
 }
 
 #about-me, #portfolio {
-  background-color: #48B593;
+  background-color: #151417;
   position: relative;
   clear: both;
   padding: 0 17%;
@@ -46,7 +46,7 @@ body {
 }
 
 #skills, #contact {
-  background-color: #87C1AF;
+  background-color: #727776;
   position: relative;
   clear: both;
   padding: 0 17%;
@@ -74,7 +74,7 @@ hr {
 }
 
 h1 {
-  padding-top: 20px;
+  padding-top: 50px;
   font-weight: 400;
   font-size: 50px;
   margin: 0px;
