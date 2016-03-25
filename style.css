@@ -11,6 +11,7 @@ body {
   background-size: cover;
   margin-bottom: 0px;
   padding: 0px;
+  border: 0px;
   text-align: center;
   font-family: 'Dosis', sans-serif;
 }
@@ -91,11 +92,11 @@ h1 {
 h2 {
   font-weight: 300;
   font-size: 25px;
-  /*margin: 0px;*/
+  margin: 25px;
 }
 
 .navbar {
-  float: left;
+  float: right;
   padding: 0;
   position: relative;
   border: none;
@@ -151,7 +152,7 @@ h2 {
 }
 
 .side-nav {
-  float: left;
+  float: right;
   position: relative;
   margin-right: 2em;
 }
