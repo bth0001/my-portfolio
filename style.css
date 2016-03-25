@@ -1,12 +1,9 @@
 body {
-  background-color: black;
-  font-color: white;
-  font-style: helvetica;
-}
-#intro {
-  background-color: black;
-  font-color: white;
-}
-#row {
-  float: right;
-}
+    background: no-repeat center center fixed;
+    background-image: url(http://pre13.deviantart.net/018c/th/pre/f/2014/041/3/0/atlanta_skyline_by_hcitron-d724wwf.jpg);
+    background-size: cover;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
