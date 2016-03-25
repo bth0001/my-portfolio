@@ -7,7 +7,7 @@ html, body, .container {
 
 body {
   background: no-repeat center center fixed;
-  background-image: url(http://pre13.deviantart.net/018c/th/pre/f/2014/041/3/0/atlanta_skyline_by_hcitron-d724wwf.jpg);
+  background-image: url(http://cdn.pcwallart.com/images/atlanta-skyline-wallpaper-1.jpg);
   background-size: cover;
   margin-bottom: 0px;
   padding: 0px;
@@ -16,13 +16,13 @@ body {
 }
 
 #intro {
-  background-color: #C2FFCD;
+  background-color: black;
   background: no-repeat center center;
   opacity: 0.5;
   height: 100%;
   width: 100%;
   line-height: 100%;
-  position: relative;
+  position: top;
 }
 
 #about-me, #portfolio {
