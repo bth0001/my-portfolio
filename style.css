@@ -88,7 +88,7 @@ h2 {
 }
 
 .navbar {
-  float: right;
+  float: left;
   padding: 0;
   position: relative;
   border: none;
