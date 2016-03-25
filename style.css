@@ -27,7 +27,7 @@ body {
 
 #intro img {
   height: auto;
-  weight: auto;
+  width: auto;
   max-height: 230px;
   max-width: 178px;
 }
