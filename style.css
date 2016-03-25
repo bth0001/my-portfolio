@@ -58,7 +58,7 @@ body {
 }
 
 #intro h1 {
-  padding-top: 200px;
+  padding-top: 5px;
   font-weight: 400;
   font-size: 50px;
   margin-bottom: 5px;
@@ -113,7 +113,7 @@ h2 {
 }
 
 .nav li .active {
-  background: #48B593;
+  background: white;
 }
 
 .nav li a .active {
