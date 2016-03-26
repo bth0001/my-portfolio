@@ -107,58 +107,40 @@ h2 {
     margin: 10px;
 }
 
-.navbar {
-  float: right;
-  padding: 0;
-  position: relative;
-  border: none;
-  z-index: 1;
+#navWrap {
+   height: 30px;
+}
+#nav {
+   padding: 5px;
+   background: #999;
+}
+#nav ul {
+   margin: 0;
+   padding: 0;
+}
+#nav li {
+   float: left;
+   padding: 3px 8px;
+   background-color: #FFF;
+   margin: 0 10px 0 0;
+   color: #F00;
+   list-style-type: none;
 }
 
-.nav li {
-  display: block;
-  list-style: none;
-  background: black;
+#nav li a {
+   color: #F00;
+   text-decoration: none;
 }
-
-.nav li a {
-  color: silver;
-  text-decoration: none;
-  font-size: 1.25em;
-  line-height: 1.5em;
+#nav li a:hover {
+   text-decoration: underline;
 }
-
-.nav li:hover {
-  color: #48B593;
-}
-
-.nav li .active {
-  background: white;
-}
-
-.nav li a .active {
-  color: #15352B;
-}
-
-.nav li:first-child {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.nav li:last-child {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
+br.clearLeft {
+   clear: left;
+}​
 
 .skill-list li {
   list-style: none;
   padding-right: 0px;
-}
-
-.side-nav {
-  float: right;
-  position: relative;
-  margin-right: 2em;
 }
 
 ul {
