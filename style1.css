@@ -134,8 +134,8 @@ h2 {
 #nav li a:hover {
    text-decoration: underline;
 }
-br.clearLeft {
-   clear: left;
+br.clearCenter {
+   clear: center;
 }​
 
 .skill-list li {
