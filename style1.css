@@ -113,16 +113,18 @@ h2 {
 #nav {
    padding: 5px;
    background: #999;
+   max-width: 100px;
+   max-height: 100%;
 }
 #nav ul {
    margin: 0;
    padding: 0;
 }
 #nav li {
-   float: left;
-   padding: 3px 8px;
+   float: right;
+   padding: 3px 3px;
    background-color: #FFF;
-   margin: 0 10px 0 0;
+   margin: 0px 0 0;
    color: #F00;
    list-style-type: none;
 }
